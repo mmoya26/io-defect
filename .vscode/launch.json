@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug WebdriverIO",
+        "runtimeExecutable": "npm",
+        "args": ["run", "wdio", "--", "--config", "wdio.conf.ts"],
+        "console": "integratedTerminal"
+      }
+    ]
+}
