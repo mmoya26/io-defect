@@ -127,6 +127,8 @@ export const config: WebdriverIO.Config = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec', 'dot'],
 
+    outputDir: './logs',
+
     // Options to be passed to Jasmine.
     jasmineOpts: {
         // Jasmine default timeout
